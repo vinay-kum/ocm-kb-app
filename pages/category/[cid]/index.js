@@ -43,7 +43,7 @@ export default function Category({articles,categoryName}) {
   <div className="p-3 mb-3 bg-light text-dark">
     <b>Need Support</b>
     <p>
-      Can't find the answer you're looking for? Don't worry we're here
+    Unable to find the answer you are looking for? Do not  worry we are here
       to help!
     </p>
     <div className="btn text-light contact">Contact Us</div>

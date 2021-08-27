@@ -9,7 +9,7 @@ export default function Home({categories}) {
           <h2 className="header">Help Topics</h2>
           <div className="row ps-2 py-2">
             {
-              categories.map((category)=>(<CategorySummary category={category} ></CategorySummary>))
+              categories.map((category)=>(<CategorySummary key={category.id} category={category} ></CategorySummary>))
             }
 
              </div>
@@ -20,7 +20,7 @@ export default function Home({categories}) {
           <div className="p-3 mb-3 bg-light text-dark">
             <b>Need Support</b>
             <p>
-              Can't find the answer you're looking for? Don't worry we're here
+              Unable to find the answer you are looking for? Do not  worry we are here
               to help!
             </p>
             <div className="btn text-light contact">Contact Us</div>
