@@ -30,7 +30,7 @@ export default function Category({articles,categoryName}) {
 </div>
   <div className="row ps-2 py-2">
       {
-          articles.map((article)=>(<ArticleSummary data={article.fields} id={article.id}></ArticleSummary>))
+          articles.map((article)=>(<ArticleSummary data={article.fields} key={article.id}></ArticleSummary>))
       }
 
 
